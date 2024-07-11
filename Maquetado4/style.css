@@ -1,0 +1,19 @@
+main {
+    height: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+img {
+    max-height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+p {
+    color: #7a7a7a;
+}
+
+.row {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

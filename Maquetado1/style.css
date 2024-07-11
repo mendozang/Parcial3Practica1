@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    height: 100%;
+}
+
+.container {
+    background-color: #f0f0f0; 
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.row {
+    padding: 1%;
+}
+
+.btn {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+

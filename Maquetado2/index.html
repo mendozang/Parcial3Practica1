@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetado 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <main class="bg-success">
+        <section class="container col-lg-6 d-flex justify-content-center">
+            <form>
+                <div class="row">
+                    <label for="name" class="col-form-label col">Nombre:</label>
+                    <input type="text" class="form-control col" id="name" placeholder="Escribe tu nombre">
+                </div>
+                <div class="row">
+                    <label for="email" class="col-form-label col">Correo electrónico:</label>
+                    <input type="email" class="form-control col" id="email" placeholder="Escribe tu correo electronico">
+                </div>
+                <div class="row">
+                    <label for="url" class="col-form-label col">URL:</label>
+                    <input type="url" class="form-control col" id="url" placeholder="Escribe la URL de tu página">
+                </div>
+                <div class="row">
+                    <label for="date" class="col-form-label col">Fecha:</label>
+                    <input type="date" class="form-control col" id="date">
+                </div>
+                <div class="row">
+                    <label for="time" class="col-form-label col">Tiempo:</label>
+                    <input type="time" class="form-control col" id="time">
+                </div>
+                <div class="row">
+                    <label for="datetime" class="col-form-label col">Fecha y hora:</label>
+                    <input type="datetime-local" class="form-control col" id="datetime">
+                </div>
+                <div class="row">
+                    <label for="month" class="col-form-label col">Mes:</label>
+                    <select name="month" id="month" class="form-control col">
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label for="week" class="col-form-label col">Semana:</label>
+                    <select name="week" id="week" class="form-control col">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label for="number" class="col-form-label col">Número:</label>
+                    <input type="number" class="form-control col" id="number">
+                    <div class="form-text">(Min -10, Max 10)</div>
+                </div>
+                <div class="row">
+                    <label for="phonenumber" class="col-form-label col">Teléfono:</label>
+                    <input type="tel" class="form-control col" id="phonenumber" placeholder="Escribe tu teléfono">
+                </div>
+                <div class="row">
+                    <label for="search" class="col-form-label col">Término de busqueda:</label>
+                    <input type="text" class="form-control col" id="search">
+                </div>
+                <div class="row">
+                    <label for="color" class="col-form-label col">Color favorito:</label>
+                    <input type="color" class="form-control col" id="color">
+                </div>
+                <div class="row">
+                    <button type="submit" class="btn btn-success d-block">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

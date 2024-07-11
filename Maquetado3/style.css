@@ -1,0 +1,22 @@
+body {
+    font-family: "Margarine", sans-serif !important;
+}
+
+.mainPart {
+    padding: 6%;
+    margin-bottom: 10%;
+}
+
+.title {
+    font-size: 100px;
+}
+
+
+.input-group {
+    width: 60% !important;
+    margin: auto;
+}
+
+.buttons {
+    padding: 2%;
+}
